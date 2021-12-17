@@ -17,11 +17,21 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
+.bg-img-small {
+  position: fixed;
+  top: 0;
+  z-index: -20;
+  background-image: url(/assets/kati-y-ale-small.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  filter: blur(15px);
+}
+
 .bg-img {
   position: fixed;
   top: 0;
   z-index: -10;
-  background-image: url(/assets/kati-y-ale.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
