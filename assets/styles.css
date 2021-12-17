@@ -1,0 +1,88 @@
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  padding: 20px;
+  margin: 0;
+}
+
+.w-full {
+  width: 100vw;
+}
+
+.h-full {
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-salmon {
+  color: #fa8072;
+}
+
+.text-gray {
+  color: #3f3f3f;
+}
+
+.focus\:text-salmon:focus {
+  color: #fa8072;
+}
+
+.hover\:text-salmon:hover {
+  color: #fa8072;
+}
+
+.visited\:text-gray:visited {
+  color: #3f3f3f;
+}
+
+.text-lg {
+  font-size: 2rem;
+  line-height: 1.5rem;
+}
+
+.text-xlg {
+	font-size: 4rem;
+  line-height: 1;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mx-10 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.focus\:ring-salmon {
+  outline-color: #fa8072;
+}
+
+.focus\:ring-2 {
+  outline-width: 2px;
+  border-radius: 0;
+}
+
+.focus\:ring-offset-10 {
+  outline-offset: 10px;
+}
