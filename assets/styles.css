@@ -3,7 +3,7 @@
 }
 
 body {
-  padding: 20px;
+  padding: 0;
   margin: 0;
 }
 
@@ -57,12 +57,21 @@ body {
 }
 
 .text-xlg {
+  font-size: 2.5rem;
+  line-height: 1.5rem;
+}
+
+.text-2xlg {
 	font-size: 4rem;
   line-height: 1;
 }
 
 .mt-50 {
   margin-top: 50px;
+}
+
+.mt-30 {
+  margin-top: 30px;
 }
 
 .mt-20 {
@@ -85,4 +94,13 @@ body {
 
 .focus\:ring-offset-10 {
   outline-offset: 10px;
+}
+
+/* --- Breakpoints ---------------------------------------------------------- */
+
+@media screen and (min-width: 640px) {
+  .tablet\:text-2xlg {
+    font-size: 4rem;
+    line-height: 1;
+  }
 }
